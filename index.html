@@ -1,28 +1,60 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>home</title>
+    <title>Home</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <a href="#main-content" class="skip-link">Skip to Main Content</a>
+
     <header>
-        <h1>welcome to my website</h1>
+        <h1>Welcome to my website</h1>
     </header>
+
     <nav>
+        <img src="https://via.placeholder.com/150" alt="Logo">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">Introduce</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-    <main>
+
+    <main id="main-content">
         <h2>Learn more know more</h2>
-        <p>hello everyone</p>
-        <p>rate me high scoreee pls</p>
+        <p>Hello everyone</p>
+        <p>Rate me high scoreee pls</p>
+
+        <div class="grid">
+            <div class="grid-item">
+                <img src="https://picsum.photos/400/300?random=1" alt="Grid Image 1">
+                <h3>Grid Item 1</h3>
+                <p>Description for grid item 1.</p>
+            </div>
+            <div class="grid-item">
+                <img src="https://picsum.photos/400/300?random=2" alt="Grid Image 2">
+                <h3>Grid Item 2</h3>
+                <p>Description for grid item 2.</p>
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="flex-item">
+                <img src="https://picsum.photos/300/200?random=3" alt="Flex Image 1">
+                <h4>Flex Item 1</h4>
+            </div>
+            <div class="flex-item">
+                <img src="https://picsum.photos/300/200?random=4" alt="Flex Image 2">
+                <h4>Flex Item 2</h4>
+            </div>
+        </div>
     </main>
+
     <footer>
         <p>&copy; 2026 By Huy</p>
     </footer>
+
 </body>
 </html>
